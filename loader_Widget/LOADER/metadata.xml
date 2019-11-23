@@ -1,0 +1,20 @@
+<Entities>
+  <ExtensionPackages>
+    <ExtensionPackage 
+              name="CustomLoader_ExtensionPackage" 
+              description="This is a custom Loader component for thingworx."
+              vendor="Deloitte Consulting"
+              packageVersion="0.3.7"
+              minimumThingWorxVersion="7.0.0"/>
+ </ExtensionPackages>
+ <Widgets>
+   <Widget name="CustomLoader">
+     <UIResources>
+       <FileResource type="CSS" file="CustomLoader.ide.css" isDevelopment="true" isRuntime="false"/>
+       <FileResource type="JS" file="CustomLoader.ide.js" isDevelopment="true" isRuntime="false"/>
+       <FileResource type="CSS" file="CustomLoader.runtime.css" isDevelopment="false" isRuntime="true"/>
+       <FileResource type="JS" file="CustomLoader.runtime.js" isDevelopment="false" isRuntime="true"/>
+     </UIResources>
+   </Widget>
+ </Widgets>
+</Entities>
