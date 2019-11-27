@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ExtensionPackages>
+        <ExtensionPackage dependsOn="" description="" minimumThingWorxVersion="8.2.0" name="MyAwesomeExtension" packageVersion="1.0.0" vendor="ThingWorx Labs"> 
+        </ExtensionPackage>
+    </ExtensionPackages>
+    <Widgets>
+        <Widget name="simplewidget">
+            <UIResources>
+                <FileResource description="A simple example of Widget creation" file="simplewidget.ide.js" isDevelopment="true" isRuntime="false" type="JS"/>
+                <FileResource description="A simple example of Widget creation" file="simplewidget.ide.css" isDevelopment="true" isRuntime="false" type="CSS"/>
+                <FileResource description="A simple example of Widget creation" file="simplewidget.runtime.js" isDevelopment="false" isRuntime="true" type="JS"/>
+                <FileResource description="A simple example of Widget creation" file="simplewidget.runtime.css" isDevelopment="false" isRuntime="true" type="CSS"/>
+            </UIResources>
+        </Widget>
+    </Widgets>
+</Entities>
